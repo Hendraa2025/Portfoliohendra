@@ -36,13 +36,7 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-1xl mb-1">
-                  7<span className="text-violet-500">+</span>
-                  <p>Proyek Selesai</p>
-                </h1>
-              </div>
-              <div>
-                <h1 className="text-1xl mb-1">
-                  4<span className="text-violet-500">+</span>
+                  9<span className="text-violet-500">+</span>
                   <p>Tahun Pengalaman Kerja</p>
                 </h1>
               </div>

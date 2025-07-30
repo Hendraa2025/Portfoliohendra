@@ -1,4 +1,4 @@
-import HeroImage from "/assets/sandhika.jpg";
+import HeroImage from "/assets/hendra.jpg";
 
 const Image = {
   HeroImage,
@@ -48,7 +48,7 @@ export const listProyek = [
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Administrasi Transportasi Dumtruck",
+    nama: "Administrasi",
     desk: "Mengelola dokumen proyek seperti absensi, laporan harian, dan pengajuan kebutuhan material. Menyusun data proyek untuk keperluan laporan ke kantor pusat. Mendukung tim teknis secara administratif.",
     tools: [],
     dad: "400",
