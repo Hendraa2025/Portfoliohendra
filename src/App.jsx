@@ -27,7 +27,7 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
-            Saya Hendra Saputra Lulusan dari STAI YASBA Kalianda tahun 2021, Saya memiliki pengalaman kerja di berbagai industri, mulai dari manufaktur alas kaki, proyek konstruksi, transportasi, hingga keamanan. Terbiasa bekerja secara
+            Saya Hendraaa Saputra Lulusan dari STAI YASBA Kalianda tahun 2021, Saya memiliki pengalaman kerja di berbagai industri, mulai dari manufaktur alas kaki, proyek konstruksi, transportasi, hingga keamanan. Terbiasa bekerja secara
             teknis di lapangan sebagai fitter proyek, quality control, dan helper, serta menangani administrasi proyek dan transportasi. Memahami prosedur kerja teknis, keselamatan kerja, dan alur operasional proyek. Mampu beradaptasi
             dengan cepat di lingkungan kerja baru dan terbiasa bekerja dalam tim maupun mandiri. Komitmen tinggi terhadap tanggung jawab, ketelitian, serta kedisiplinan dalam menjalankan tugas.t, menangani instalasi jaringan, perakitan dan
             perbaikan perangkat komputer, erta troubleshooting sistem.
