@@ -9,7 +9,7 @@ const Footer = () => {
           Beranda
         </a>
         <a href="#proyek" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
-          Proyek
+          Pengalaman
         </a>
         <a href="#tool" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
           Tools

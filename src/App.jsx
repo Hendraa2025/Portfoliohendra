@@ -7,12 +7,8 @@ function App() {
       {/* Hero Section  */}
       <div className="hero grid md:grid-cols-2 item center pt-10 xl:gap-0 gap-6 grid:col-1">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
-          <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
-            <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
-            <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang menganggur, Tapi harus tetap berkarya dong brur 🚀</p>
-          </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">Hi, Saya Hendra Saputra</h1>
-          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
+          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
               Download CV <i className="ri-download-line ri-lg"></i>
@@ -31,8 +27,10 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
-            Hai perkenalkan Saya Hendra Saputra, lulusan Universitas Serang Raya Tahun 2018. Memiliki pengalaman kerja selama ± 4 tahun di berbagai bidang industri manufaktur alas kaki, dengan pemahaman mendalam terhadap proses perencanaan
-            produksi, kontrol kualitas dan pengelolaan admin dibidang logistik. Selain itu, aktif sebagai freelance IT Support, menangani instalasi jaringan, perakitan dan perbaikan perangkat komputer, serta troubleshooting sistem.
+            Saya Hendra Saputra Lulusan dari STAI YASBA Kalianda tahun 2021, Saya memiliki pengalaman kerja di berbagai industri, mulai dari manufaktur alas kaki, proyek konstruksi, transportasi, hingga keamanan. Terbiasa bekerja secara
+            teknis di lapangan sebagai fitter proyek, quality control, dan helper, serta menangani administrasi proyek dan transportasi. Memahami prosedur kerja teknis, keselamatan kerja, dan alur operasional proyek. Mampu beradaptasi
+            dengan cepat di lingkungan kerja baru dan terbiasa bekerja dalam tim maupun mandiri. Komitmen tinggi terhadap tanggung jawab, ketelitian, serta kedisiplinan dalam menjalankan tugas.t, menangani instalasi jaringan, perakitan dan
+            perbaikan perangkat komputer, erta troubleshooting sistem.
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
@@ -58,10 +56,10 @@ function App() {
       {/* Pengalaman Section  */}
       <div className="proyek mt-32 py-19" id="proyek">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          Proyek
+          Pengalaman
         </h1>
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          Berikut ini proyek yang pernah dibuat
+          Berikut ini pengalaman saya
         </p>
         <div className="proyek-box mt-14 grid md:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
@@ -111,40 +109,6 @@ function App() {
         </div>
       </div>
       {/* End Tool */}
-
-      {/* Proyek Section */}
-      <div className="proyek mt-32 py-19" id="proyek">
-        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          Proyek
-        </h1>
-        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          Berikut ini proyek yang pernah dibuat
-        </p>
-        <div className="proyek-box mt-14 grid md:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4">
-          {listProyek.map((proyek) => (
-            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad}>
-              <img src={proyek.gambar} alt="Proyek Image" loading="lazy" />
-              <div>
-                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
-                <p className="text-base/loop mb-4">{proyek.desk}</p>
-                <div className="flex flex-wrap gap-2">
-                  {proyek.tools.map((tool, index) => (
-                    <p className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold " key={index}>
-                      {tool}
-                    </p>
-                  ))}
-                </div>
-                <div className="mt-8 text-center">
-                  <a href={proyek.link} target="_blank" rel="noopener noreferrer" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">
-                    Lihat
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      {/* End Proyek Section */}
 
       {/* Kontak Section */}
       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
